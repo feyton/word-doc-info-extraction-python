@@ -1,0 +1,9 @@
+The most important folder is ‘word’ and within, 
+the XML that contains the main structure and content is ‘document.xml’. 
+You will notice that the other XML files contain information about style and numbering. 
+This is important because the library python-docx may struggle with anything that is not contained with the document.xml file. If access is required to these details, you may have to work with the XML files directly.
+
+Expression
+
+
+01-May-2020 = [0-9]{1,2}-[a-zA-Z]{3}-[0-9]{4}
